@@ -5,9 +5,11 @@ Use C language.
 
 implement
 ---------
-Static size hash table, Static string length.
-Use simple djb2 hash function: http://www.cse.yorku.ca/~oz/hash.html
-Hash collision: linear prombing
+- Static size hash table, static string length.
+
+- Use simple djb2 hash function: http://www.cse.yorku.ca/~oz/hash.html
+
+- Hash collision method: linear prombing
 
 Usage
 -----
