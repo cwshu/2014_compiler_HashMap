@@ -9,6 +9,6 @@ hashmap_tester1: hashmap_tester1.o hashmap.o
 	gcc -c -o $@ $<
 
 clean:
-	rm -f *.demo *.tester *.o
+	rm -f *.o
 
 .PHONY: clean
