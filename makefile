@@ -1,3 +1,5 @@
+all: hashmap.o
+
 test: hashmap_tester1
 
 hashmap_tester1: hashmap_tester1.o hashmap.o

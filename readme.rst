@@ -8,3 +8,8 @@ implement
 Static size hash table, Static string length.
 Use simple djb2 hash function: http://www.cse.yorku.ca/~oz/hash.html
 Hash collision: linear prombing
+
+Usage
+-----
+1. include hashmap.h header.
+2. link hashmap.o object file.
